@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #3366FF 20%, #CC00FF 100%)
+}
+
+#upperDiv {
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border: 2px solid white;
+    box-shadow: 3px 3px #333333;
+}
+
+#divInputText {
+    height: 100px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px #333333;
+    align-content: center;
+
+}
+
+#toAdd {
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 30px;
+    width: 350px;
+    font-size: medium;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+#btn {
+    margin-left: 55px;
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+
+}
+
+#bottomDiv {
+    overflow-y: scroll;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px #333333;
+}
+
+.paragrafo {
+    margin: 20px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: medium;
+    font-style: normal;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    border-bottom: solid black 2px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 20;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
