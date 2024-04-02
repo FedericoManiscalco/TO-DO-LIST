@@ -3,6 +3,7 @@ function adding(e){
      var textToAdd = document.getElementById("toAdd").value;
      var p = document.createElement("p");
      
+     if(textToAdd != ""){
      p.textContent = textToAdd;
      p.classList.add("paragrafo");
      var btn = document.createElement("button");
@@ -17,6 +18,7 @@ function adding(e){
      document.getElementById("bottomDiv").appendChild(p);
      console.log("Text to add: " + textToAdd);
      console.log("p element: " + p);
+}
 }
 
 
